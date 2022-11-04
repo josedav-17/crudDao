@@ -551,7 +551,7 @@ public class Main2 extends javax.swing.JFrame {
             if (opt == 0) {
     
                 try { // en este metodo actualizar hacemos el casteo de string a integer, recibe dos parametros el id y el carro
-                    funcionario.actualizarFuncionario(Integer.parseInt(txtTipoID.getText()), funcionario);
+                    funcionario.actualizar(Integer.parseInt(txtTipoID.getText()), funcionario);
                     JOptionPane.showMessageDialog(null, "Funcionario actualizado");
                     limpiar();
                     cargarTabla();
